@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbk1"
+    tools:context=".Students">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="333dp"
+        android:layout_height="398dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233">
+
+        <Button
+            android:id="@+id/addstu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Add New Student"
+            android:textColor="@color/theme_white"
+            app:layout_constraintBottom_toTopOf="@+id/modistu"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/modistu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Modify Student Details"
+            android:textColor="@color/theme_white"
+            app:layout_constraintBottom_toTopOf="@+id/remstu"
+            app:layout_constraintTop_toBottomOf="@+id/addstu"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/remstu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Remove Student"
+            android:textColor="@color/theme_white"
+            app:layout_constraintBottom_toTopOf="@+id/slist"
+            app:layout_constraintTop_toBottomOf="@+id/modistu"
+            tools:layout_editor_absoluteX="-16dp" />
+
+        <Button
+            android:id="@+id/slist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="View Student Database"
+            android:textColor="@color/theme_white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/remstu"
+            tools:layout_editor_absoluteX="-16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

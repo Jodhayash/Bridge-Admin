@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/sid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Student Admission Number" />
+
+    <EditText
+        android:id="@+id/pname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Parent Name" />
+
+    <EditText
+        android:id="@+id/ppass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Parent Password" />
+
+    <EditText
+        android:id="@+id/pmno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Mobile no" />
+
+
+    <Button
+        android:id="@+id/add_p"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Create Parent Account"
+        android:textColor="@color/theme_white"
+        android:maxLines="1"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

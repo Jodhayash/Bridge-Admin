@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bridge-Admin</string>
+    <string name="l1">Admin Interface</string>
+    <string name="l2">Enter Admin Password</string>
+    <string name="l3">Please Login</string>
+</resources>

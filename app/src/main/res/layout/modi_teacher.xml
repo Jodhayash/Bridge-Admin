@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/mtidno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Teacher Id" />
+    <Button
+        android:id="@+id/mtfetch"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Fetch Records"
+        android:textColor="@color/theme_white"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/mtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:layout_marginRight="20dp"
+        android:hint="Teacher Name" />
+
+    <EditText
+        android:id="@+id/mtclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:layout_marginRight="20dp"
+        android:hint="Class Handled" />
+
+    <EditText
+        android:id="@+id/mtsec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Section Handled" />
+
+
+    <EditText
+        android:id="@+id/mtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:layout_marginRight="20dp"
+        android:hint="Teacher Password" />
+
+    <EditText
+        android:id="@+id/mtmno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:layout_marginRight="20dp"
+        android:hint="Teacher Mobile Number"
+        />
+
+    <Button
+        android:id="@+id/mtupdate"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Update Records"
+        android:textColor="@color/theme_white"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</LinearLayout>

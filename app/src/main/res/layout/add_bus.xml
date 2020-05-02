@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/bid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Bus Number" />
+
+    <EditText
+        android:id="@+id/dname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Driver Name" />
+
+    <EditText
+        android:id="@+id/dpass"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Driver Password" />
+
+    <EditText
+        android:id="@+id/dmno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Driver Mobile no" />
+
+
+    <Button
+        android:id="@+id/add_b"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Add New Bus"
+        android:textColor="@color/theme_white"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

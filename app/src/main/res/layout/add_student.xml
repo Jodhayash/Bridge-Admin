@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/sadno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Admission number" />
+
+    <EditText
+        android:id="@+id/sname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Student Name" />
+
+    <EditText
+        android:id="@+id/sclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Class(in numeric)" />
+
+    <EditText
+        android:id="@+id/ssec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Section" />
+
+
+    <EditText
+        android:id="@+id/srno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Student Roll Number" />
+
+    <EditText
+        android:id="@+id/sbno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Enter Student Bus Number"
+        />
+
+    <Button
+        android:id="@+id/add_S"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Add Student"
+        android:textColor="@color/theme_white"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</LinearLayout>

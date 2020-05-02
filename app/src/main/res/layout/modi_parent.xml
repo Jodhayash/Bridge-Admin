@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/mpidno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Student Admission Number" />
+    <Button
+        android:id="@+id/mpfetch"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Fetch Records"
+        android:textColor="@color/theme_white"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/mpname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Parent Name" />
+
+    <EditText
+        android:id="@+id/mppass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:maxLines="1"
+        android:hint="Parent Password" />
+
+    <EditText
+        android:id="@+id/mpmno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:layout_marginRight="20dp"
+        android:hint="Parent Mobile Number"
+        />
+
+    <Button
+        android:id="@+id/mpupdate"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Update Records"
+        android:textColor="@color/theme_white"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</LinearLayout>
